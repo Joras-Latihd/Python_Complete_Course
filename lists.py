@@ -1,0 +1,16 @@
+countries = ["America", "Australia", "Egypt", "Brazil", "Argentina", "Belgium"]
+print(countries)
+print(len(countries))
+print(type(countries))
+print(countries[2])
+print(countries[-1])
+print(countries[1:3])
+print(countries[:3])
+print(countries[2:])
+print(countries[-3: -1])
+if "Brazil" in countries:
+ print("Yes, 'Brazil' is here.")
+countries.insert(2, "Portugal")
+print(countries)
+countries.append("England")
+print(countries)
